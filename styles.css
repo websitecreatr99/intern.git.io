@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+  background-size: 100% 100%;
+}
+.div-style{
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.8);
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: floralwhite;
+}
+.div-style h2{
+  margin: 0;
+  padding: 0;
+}
+.small-div{
+  background-color: lightblue;
+  width: 14rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  border-radius: 1rem;
+}
+.small-div h3{
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+}
+.small-div h2{
+  font-size: 2.5rem;
+  margin: 0;
+  
+}
+.small-div a{
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  text-decoration: none;
+}
+.div-style p{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-align: start;
+}
+.div-style button{
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: transparent; 
+  border: transparent;
+}
+.div-style button a{
+  text-decoration: none;
+}
